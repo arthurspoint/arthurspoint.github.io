@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+weight: 1
 ---
 
 # Arthurs Point

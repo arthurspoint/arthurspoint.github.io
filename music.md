@@ -2,6 +2,7 @@
 title: Music
 permalink: "/music/"
 layout: page
+weight: 2
 ---
 
 Music is the center of Arthurs Point. It is the reason for their existence. They practice and play music all the time. Because of this, recordings are very rare and hard to achieve.

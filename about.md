@@ -2,6 +2,7 @@
 title: About
 permalink: "/about/"
 layout: page
+weight: 4
 ---
 
 #### Why the Name?
