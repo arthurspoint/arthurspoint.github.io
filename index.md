@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+
 # Arthurs Point
 
 Alternative Folk Band

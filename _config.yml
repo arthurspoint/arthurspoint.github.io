@@ -8,10 +8,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 'Alternative folk band from Wookey Hole.'
+description: Alternative folk band from Wookey Hole.
 author: Test
-baseurl:
-url:
+baseurl: 
+url: 
 markdown: kramdown
 theme: minima
 gems:
