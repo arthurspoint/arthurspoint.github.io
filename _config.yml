@@ -8,14 +8,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: 'Alternative folk band from Wookey Hole.
-
-'
-baseurl: 
-url: 
-twitter_username: jekyllrb
-github_username: jekyll
+description: 'Alternative folk band from Wookey Hole.'
+author: Test
+baseurl:
+url:
 markdown: kramdown
 theme: minima
 gems:
