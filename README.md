@@ -1,10 +1,16 @@
-# arthurspoint.co.uk
+# Website for Arthurs Point
 
 Code for site www.arthurspoint.co.uk.
+
+
+### Build & Run
+
+- `bundle install`
+- `jekyll serve --watch`
 
 
 ### Uses
 
 - [Jekyll](https://github.com/jekyll/jekyll)
 - [SiteLeaf](https://www.siteleaf.com/) as a CMS
-- [Minima](https://github.com/jekyll/minima) - base theme
+- [blog.sendtoinc.com](http://blog.sendtoinc.com) - base theme

@@ -1,0 +1,29 @@
+---
+title: Music
+heading: Music
+description:
+songs:
+-
+  url: jenny-jones.mp3
+  name: Jenny Jones
+-
+  name: Kerrs Jig
+  url: kerrs-jig.mp3
+-
+  name: Pssenger
+  url: passenger.m4a
+-
+  name: Take up your spade
+  url: take-up-your-spade.m4a
+---
+<ul class="staff">
+  {% for item in page.songs %}
+    <li>
+      <p>{{ item.name }}</p>
+      <audio controls>
+        <source src="{{ site.url }}/music/{{ item.url }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </li>
+  {% endfor %}
+</ul>

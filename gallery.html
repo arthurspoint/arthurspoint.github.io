@@ -1,0 +1,23 @@
+---
+title: Gallery
+heading: Gallery
+description: Photos of Arthurs Point and the band.
+photos:
+- group.jpg
+- a1.jpg
+- a2.jpg
+- a3.jpg
+- a4.jpg
+- a5.jpg
+---
+<ul class="staff">
+	{% for item in page.photos %}
+		<li>
+			<div class="square-image">
+				<a href="{{ site.url }}/images/{{ item }}">
+					<img src="{{ site.url }}/images/{{ item }}"/>
+				</a>
+			</div>
+		</li>
+	{% endfor %}
+</ul>

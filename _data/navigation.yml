@@ -1,0 +1,16 @@
+- name: Music
+  link: /music/
+  new_window: false
+  highlight: false
+- name: Gallery
+  link: /gallery/
+  new_window: false
+  highlight: false
+- name: About
+  link: /about/
+  new_window: false
+  highlight: false
+# - name: Blog
+#   link: /blog/
+#   new_window: false
+#   highlight: false
