@@ -1,5 +1,9 @@
-- name: Music
-  link: /music/
+- name: Home
+  link: /
+  new_window: false
+  highlight: false
+- name: Tracks
+  link: /tracks/
   new_window: false
   highlight: false
 - name: Gallery

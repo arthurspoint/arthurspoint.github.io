@@ -1,3 +1,48 @@
+.members {
+	padding: 0;
+	list-style: none;
+	display: block;
+	@extend %flexbox;
+	li {
+		padding-left: 20px;
+		box-sizing: border-box;
+		width: 100%;
+
+		@media #{$tablet} {
+			@include flex(1, 1, 45%);
+		}
+
+		@media #{$desktop} {
+			@include flex(1, 1, 29%);
+		}
+
+	}
+	.name {
+		font-size: 1.3em;
+		margin-top: 20px;
+	}
+
+	@media #{$tablet} {
+		padding-bottom: 0px;
+	}
+
+	@media #{$desktop} {
+		padding-bottom: 250px;
+	}
+}
+
+.about_photo {
+
+		float: none;
+		margin: auto;
+		width: 100%;
+
+		@media #{$tablet} {
+			width: 50%;
+			float: right;
+		}
+}
+
 .staff {
 	padding: 0;
 	list-style: none;
