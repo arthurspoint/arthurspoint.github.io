@@ -22,7 +22,14 @@
 		margin-top: 20px;
 	}
 
+
+	@media #{$mobile} {
+		display: block;
+	}
+
+
 	@media #{$tablet} {
+		display: flex;
 		padding-bottom: 0px;
 	}
 }
