@@ -1,4 +1,4 @@
 ---
 name: Martin
-position: Fiddle.
+position: Fiddle and Guitar.
 ---

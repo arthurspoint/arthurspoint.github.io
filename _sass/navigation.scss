@@ -37,6 +37,10 @@ nav {
 		transition: .2s ease-in-out;
 		display: none;
 
+		top: 13px;
+		padding-left: 30px;
+		font-size: 17px;
+
 		@media #{$mid-point} {
 			display: inline;
 			padding: 10px;
@@ -44,11 +48,12 @@ nav {
 
 
 		&.nav-toggle {
-			display: inline;
-			position: absolute;
-			right: 10px;
-			top: -22px;
-			font-size: 1.9em;
+	    display: inline;
+	    position: absolute;
+	    right: 36px;
+	    top: -13px;
+	    font-size: 2.9em;
+
 			border: 0;
 
 			@media #{$mid-point} {

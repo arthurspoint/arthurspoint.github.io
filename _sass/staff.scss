@@ -1,7 +1,7 @@
 .members {
 	padding: 0;
 	list-style: none;
-	display: block;
+	// display: block;
 	@extend %flexbox;
 	li {
 		padding-left: 20px;
@@ -24,10 +24,6 @@
 
 	@media #{$tablet} {
 		padding-bottom: 0px;
-	}
-
-	@media #{$desktop} {
-		padding-bottom: 250px;
 	}
 }
 

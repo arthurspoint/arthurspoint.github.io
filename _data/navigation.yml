@@ -2,16 +2,16 @@
   link: /
   new_window: false
   highlight: false
+- name: About
+  link: /about/
+  new_window: false
+  highlight: false
 - name: Tracks
   link: /tracks/
   new_window: false
   highlight: false
-- name: Gallery
-  link: /gallery/
-  new_window: false
-  highlight: false
-- name: About
-  link: /about/
+- name: Gigs
+  link: /gigs/
   new_window: false
   highlight: false
 # - name: Blog

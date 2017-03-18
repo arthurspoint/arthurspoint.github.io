@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: 'Albondigas';
+  src: url('/fonts/Albondigas.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
 html {
 	background: #2b2b40;
 }
@@ -8,7 +15,7 @@ html, body {
 }
 
 body {
-	font-family: "Arvo", serif;
+	font-family: Arial, serif;
 	font-weight: 400;
 }
 
@@ -22,7 +29,7 @@ a:hover {
 }
 
 img {
-	width: 100%;
+	width: 60%;
 }
 
 h1 strong, h2 strong {
