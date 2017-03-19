@@ -81,7 +81,11 @@ header {
 
 
 	  	@media #{$mobile} {
-	    	font-size: 65px;
+	    	font-size: 50px;
+			}
+
+			@media #{$tablet} {
+				font-size: 70px;
 			}
 
 			@media #{$desktop} {
