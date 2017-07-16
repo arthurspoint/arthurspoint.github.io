@@ -1,4 +1,6 @@
 ---
+title: Adam
+position: 0
 name: Adam
-position: Guitar and Mandolin.
 ---
+

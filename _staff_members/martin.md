@@ -1,4 +1,6 @@
 ---
+title: Martin
+position: 0
 name: Martin
-position: Fiddle and Guitar.
 ---
+

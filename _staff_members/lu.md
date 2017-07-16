@@ -1,4 +1,6 @@
 ---
+title: Lu
+position: 0
 name: Louise
-position: Flute and Vocals.
 ---
+
