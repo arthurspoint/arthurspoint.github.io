@@ -42,3 +42,16 @@ old_songs:
     </li>
   {% endfor %}
 </ul>
+
+<h3>Previous Recordings</h3>
+<ul class="staff">
+  {% for item in page.old_songs %}
+    <li>
+      <p>{{ item.name }}</p>
+      <audio controls>
+        <source src="/music/{{ item.url }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </li>
+  {% endfor %}
+</ul>
